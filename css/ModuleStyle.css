@@ -1,0 +1,216 @@
+body {
+    background-color: #1E1E1E;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+}
+
+.title {
+    color: green;
+    border: 10px,green;
+    border-style: solid;
+    text-align: center;
+    width: 50%;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.home {
+    color: green;
+    border: 10px,green;
+    border-style: solid;
+    border-radius: 15px;
+    width: 50px;
+    height: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.hack {
+    color: transparent;
+    border: 10px,green;
+    border-style: solid;
+    border-radius: 15px;
+    width: 50px;
+    height: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.content {
+    display: flex;
+}
+
+.modules {
+    width: 10em;
+    color: green;
+    border: 10px,green;
+    border-style: solid;
+    border-radius: 15px;
+    display: flexbox;
+}
+
+.modules p a {
+    color: green;
+    display: flex;
+    flex-direction: column;
+    text-indent: 5%;
+}
+
+.score {
+    width: 10em;
+    color: green;
+    border: 10px,green;
+    border-style: solid;
+    border-radius: 15px;
+    display: flexbox;
+}
+
+.score p {
+    color: green;
+    display: flex;
+    flex-direction: column;
+    text-indent: 5%;
+}
+
+
+.piano {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid #121212 4px;
+    max-height: 508px;
+}
+
+.piano_key {
+    width: 100px;
+    height: 500px;
+    border: solid #121212 4px;
+    background-color: #2e2e2e;
+    color: white;
+    font-size: larger;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.piano_key:hover {
+    background-color: #1E1E1E ;
+}
+
+.picturePuzzle {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 500px;
+    border: white solid 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    display: flex;
+}
+
+.bottom {
+    display: flex;
+}
+.top_left {
+    background-color: black;
+    width: 250px;
+    height: 250px;
+}
+
+.top_right {
+    background-color: white;
+    width: 250px;
+    height: 250px;
+}
+
+.bottom_right {
+    background-color: black;
+    width: 250px;
+    height: 250px;
+}
+
+.bottom_left {
+    background-color: gray;
+    width: 250px;
+    height: 250px;
+}
+
+.top_left2 {
+    width: 250px;
+    height: 250px;
+    background-image:
+    linear-gradient(to bottom right, transparent 50%, black 0),
+    linear-gradient(to top right, black 50%, transparent 0);
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    background-position: left, right;
+}
+
+.top_right2 {
+    width: 250px;
+    height: 250px;
+    background-image:
+    linear-gradient(to bottom right, transparent 50%, white 0),
+    linear-gradient(to top right, white 50%, transparent 0);
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    background-position: left, right;
+}
+
+.bottom_left2 {
+  width: 250px;
+  height: 250px;
+  background-image:
+  linear-gradient(to bottom right, transparent 50%, #555 0),
+  linear-gradient(to top right, #555 50%, transparent 0);
+  background-size: 50% 100%;
+  background-repeat: no-repeat;
+  background-position: left, right;
+}
+
+.bottom_right2 {    
+    width: 250px;
+    height: 250px;
+    background-image:
+    linear-gradient(to bottom right, transparent 50%, black 0),
+    linear-gradient(to top right, black 50%, transparent 0);
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    background-position: left, right;
+}
+
+.draggable_div {
+    background-color: white;
+    width: 250px;
+    height: 250px;
+}
+
+.draggable_div2 {
+    width: 250px;
+    height: 250px;
+    background-image:
+    linear-gradient(to bottom right, transparent 50%, white 0),
+    linear-gradient(to top right, white 50%, transparent 0);
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    background-position: left, right;
+}
+
+.contentSim {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hackSim {
+    width: 10em;
+}

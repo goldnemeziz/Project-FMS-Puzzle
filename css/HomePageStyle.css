@@ -1,0 +1,61 @@
+body {
+    background-color: #1E1E1E;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+}
+
+.title {
+    color: green;
+    border: 10px,green;
+    border-style: solid;
+    text-align: center;
+    width: 50%;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.home {
+    color: green;
+    border: 10px,green;
+    border-style: solid;
+    border-radius: 15px;
+    width: 50px;
+    height: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.hack {
+    color: transparent;
+    border: 10px,green;
+    border-style: solid;
+    border-radius: 15px;
+    width: 50px;
+    height: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.modules {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    color: green;
+    border: 10px,green;
+    border-style: solid;
+    border-radius: 15px;
+    text-align: center;
+    font-size: large;
+}
+
+.modules p a {
+    color: green;
+    flex-direction: column;
+    text-indent: 5%;
+}

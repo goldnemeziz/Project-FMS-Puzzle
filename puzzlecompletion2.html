@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machina Motor Skills</title>
+    <link rel="stylesheet" href="css/ModuleStyle.css">
+</head>
+<body>
+    <div class="header">
+        <a href="index.html" class="home"><img src="https://img.icons8.com/ios/50/ffffff/home--v1.png"></a>
+        <h1 class="title">Machina</h1>
+        <div class="hack"></div>
+    </div>
+
+    <div class="content">
+        <div class="modules">
+            <p><a href="PuzzleCompletion.html">Puzzle Completion</a></p>
+            <p><a href="AimTrainer.html">Aim Trainer</a></p>
+            <p><a href="PianoSimulator.html">Piano Simulator</a></p>
+        </div>
+
+        <div class="picturePuzzle">
+            <div class="top">
+                <div class = top_left2></div>
+                <div class = top_right2></div>
+            </div>
+            <div class="bottom">
+                <div class = "bottom_left2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div class = bottom_right2></div>
+            </div>
+        </div>
+
+        <div class="score">
+            <p class="progress">Progress: 1/2</p>
+            <p>complete the puzzle</p>
+        </div>
+    </div>
+    <p></p>
+    <div class = "draggable_div2" draggable="true" ondragstart="drag(event)"></div>
+    <script src="js/Puzzle2.js"></script>
+</body>
+</html>
